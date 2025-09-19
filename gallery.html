@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>ABC Fitness — Gallery</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta name="theme-color" content="#16a34a" />
+
+  <meta name="description" content="Browse ABC Fitness gear, apparel, and supplements. Add items to your cart and view totals." />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="./index.html" aria-label="ABC Fitness home">
+        <img src="./assets/images/logo.svg" alt="ABC Fitness logo" width="132" height="32" />
+      </a>
+      <h1 class="site-title">ABC Fitness</h1>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle navigation">☰</button>
+      <nav aria-label="Primary" class="nav-primary">
+        <ul id="menu" class="menu" aria-expanded="false">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./community.html">Community</a></li>
+        </ul>
+      </nav>
+      <a class="cart-link" href="./gallery.html#cart" aria-label="View cart">
+        🛒 <span id="cart-count" class="badge" aria-live="polite">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+        <h2 style="margin:0">Gallery</h2>
+        <div>
+          <button id="openCart" class="btn">View Shopping Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="table-title">
+      <div class="container">
+        <h3 id="table-title">Items & services</h3>
+        <div class="table-wrap">
+          <table class="table" role="table">
+            <thead><tr>
+              <th scope="col">Image</th>
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+              <th scope="col">Action</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/db-set.png" alt="Dumbbell Set"></td>
+      <td data-label="Item"><strong>Dumbbell Set</strong></td>
+      <td data-label="Description">High‑quality dumbbell set designed for durability and performance.</td>
+      <td data-label="Price">$129.99</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="db-set" data-name="Dumbbell Set" data-price="129.99" data-image="./assets/images/products/db-set.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/tread-pro.png" alt="Treadmill Pro"></td>
+      <td data-label="Item"><strong>Treadmill Pro</strong></td>
+      <td data-label="Description">High‑quality treadmill pro designed for durability and performance.</td>
+      <td data-label="Price">$999.00</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="tread-pro" data-name="Treadmill Pro" data-price="999.00" data-image="./assets/images/products/tread-pro.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/yoga-mat.png" alt="Yoga Mat"></td>
+      <td data-label="Item"><strong>Yoga Mat</strong></td>
+      <td data-label="Description">High‑quality yoga mat designed for durability and performance.</td>
+      <td data-label="Price">$24.50</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="yoga-mat" data-name="Yoga Mat" data-price="24.50" data-image="./assets/images/products/yoga-mat.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/res-bands.png" alt="Resistance Bands"></td>
+      <td data-label="Item"><strong>Resistance Bands</strong></td>
+      <td data-label="Description">High‑quality resistance bands designed for durability and performance.</td>
+      <td data-label="Price">$29.99</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="res-bands" data-name="Resistance Bands" data-price="29.99" data-image="./assets/images/products/res-bands.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/kb-20.png" alt="Kettlebell 20 lb"></td>
+      <td data-label="Item"><strong>Kettlebell 20 lb</strong></td>
+      <td data-label="Description">High‑quality kettlebell 20 lb designed for durability and performance.</td>
+      <td data-label="Price">$39.99</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="kb-20" data-name="Kettlebell 20 lb" data-price="39.99" data-image="./assets/images/products/kb-20.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/foam-roller.png" alt="Foam Roller"></td>
+      <td data-label="Item"><strong>Foam Roller</strong></td>
+      <td data-label="Description">High‑quality foam roller designed for durability and performance.</td>
+      <td data-label="Price">$19.95</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="foam-roller" data-name="Foam Roller" data-price="19.95" data-image="./assets/images/products/foam-roller.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/tracker.png" alt="Fitness Tracker"></td>
+      <td data-label="Item"><strong>Fitness Tracker</strong></td>
+      <td data-label="Description">High‑quality fitness tracker designed for durability and performance.</td>
+      <td data-label="Price">$149.00</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="tracker" data-name="Fitness Tracker" data-price="149.00" data-image="./assets/images/products/tracker.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/protein.png" alt="Protein Powder"></td>
+      <td data-label="Item"><strong>Protein Powder</strong></td>
+      <td data-label="Description">High‑quality protein powder designed for durability and performance.</td>
+      <td data-label="Price">$49.00</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="protein" data-name="Protein Powder" data-price="49.00" data-image="./assets/images/products/protein.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/jump-rope.png" alt="Jump Rope"></td>
+      <td data-label="Item"><strong>Jump Rope</strong></td>
+      <td data-label="Description">High‑quality jump rope designed for durability and performance.</td>
+      <td data-label="Price">$14.99</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="jump-rope" data-name="Jump Rope" data-price="14.99" data-image="./assets/images/products/jump-rope.png">Add to Cart</button></td>
+    </tr>
+<tr>
+      <td data-label="Image"><img loading="lazy" src="./assets/images/products/rower.png" alt="Rowing Machine"></td>
+      <td data-label="Item"><strong>Rowing Machine</strong></td>
+      <td data-label="Description">High‑quality rowing machine designed for durability and performance.</td>
+      <td data-label="Price">$799.00</td>
+      <td data-label="Action"><button class="btn" data-add-to-cart data-id="rower" data-name="Rowing Machine" data-price="799.00" data-image="./assets/images/products/rower.png">Add to Cart</button></td>
+    </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <dialog id="cartDialog" aria-labelledby="cartTitle">
+      <div class="cart-header">
+        <h3 id="cartTitle" style="margin:0">Your Cart</h3>
+        <button id="closeCart" class="btn" aria-label="Close cart">Close</button>
+      </div>
+      <div class="cart-body">
+        <ul id="cart-list" class="cart-list"></ul>
+      </div>
+      <div class="cart-footer">
+        <button id="clearCart" class="btn" aria-label="Clear cart">Clear Cart</button>
+        <div><strong>Total: </strong><span id="cart-total">$0.00</span></div>
+      </div>
+    </dialog>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <section aria-labelledby="newsletter-title" class="newsletter">
+        <h2 id="newsletter-title">Subscribe to our newsletter</h2>
+        <p>Get training tips, new gear alerts, and exclusive offers. No spam.</p>
+        <form id="newsletter-form" class="newsletter-form" novalidate>
+          <label class="sr-only" for="news-email">Email</label>
+          <input id="news-email" name="email" type="email" required placeholder="you@example.com" autocomplete="email" />
+          <button type="submit" class="btn">Subscribe</button>
+          <p id="newsletter-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+      <nav aria-labelledby="footer-nav-title" class="footer-nav">
+        <h2 id="footer-nav-title">Quick links</h2>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./community.html">Community</a></li>
+        </ul>
+      </nav>
+      <section aria-labelledby="social-title" class="social">
+        <h2 id="social-title">Follow us</h2>
+        <ul class="social-list">
+          <li><a href="#" aria-label="ABC Fitness on Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="ABC Fitness on Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="ABC Fitness on X">X (Twitter)</a></li>
+          <li><a href="#" aria-label="ABC Fitness on YouTube">YouTube</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container legal">
+      <p>© <span id="year"></span> ABC Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+</html>

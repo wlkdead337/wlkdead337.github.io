@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>ABC Fitness — About Us</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta name="theme-color" content="#16a34a" />
+
+  <meta name="description" content="Learn about ABC Fitness, our mission, hours, and how to reach us. Send feedback or custom order requests." />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="./index.html" aria-label="ABC Fitness home">
+        <img src="./assets/images/logo.svg" alt="ABC Fitness logo" width="132" height="32" />
+      </a>
+      <h1 class="site-title">ABC Fitness</h1>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle navigation">☰</button>
+      <nav aria-label="Primary" class="nav-primary">
+        <ul id="menu" class="menu" aria-expanded="false">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./community.html">Community</a></li>
+        </ul>
+      </nav>
+      <a class="cart-link" href="./gallery.html#cart" aria-label="View cart">
+        🛒 <span id="cart-count" class="badge" aria-live="polite">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">About ABC Fitness</h2>
+        <p>At <strong>ABC Fitness</strong>, our mission is to help everyone train smarter and live stronger. We curate reliable equipment, thoughtful recovery tools, and quality nutrition to support performance at every level—from first workouts to elite training.</p>
+        <div class="grid cols-3">
+          <div class="card"><div class="content">
+            <h3>Business hours</h3>
+            <p><strong>Mon–Fri:</strong> 6:00 AM – 9:00 PM<br><strong>Sat:</strong> 8:00 AM – 6:00 PM<br><strong>Sun:</strong> 10:00 AM – 4:00 PM</p>
+          </div></div>
+          <div class="card"><div class="content">
+            <h3>Location</h3>
+            <p>123 Fitness Way, Suite 100<br>Harrison, AR 72601</p>
+          </div></div>
+          <div class="card"><div class="content">
+            <h3>Contact</h3>
+            <p>Email: support@abcfitness.example<br>Phone: <a href="tel:+15551234567">(555) 123‑4567</a></p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="feedback-title">
+      <div class="container">
+        <h2 id="feedback-title">Feedback & custom orders</h2>
+        <p>Tell us what you’re looking for—bulk orders, custom branding, or feedback on products.</p>
+        <form id="feedback-form" novalidate>
+          <div class="form-row">
+            <div>
+              <label class="label" for="name">Name *</label>
+              <input id="name" name="name" required placeholder="Your name" />
+            </div>
+            <div>
+              <label class="label" for="email">Email *</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label class="label" for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="(555) 123‑4567" />
+            </div>
+            <div>
+              <label class="label" for="order-type">Request type</label>
+              <select id="order-type" name="type">
+                <option>General feedback</option>
+                <option>Custom order</option>
+                <option>Bulk/commercial</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row single">
+            <div>
+              <label class="label" for="message">Message *</label>
+              <textarea id="message" name="message" rows="6" required placeholder="How can we help? Include details for custom branding, quantities, deadlines, etc."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn">Send</button>
+          <p id="feedback-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <section aria-labelledby="newsletter-title" class="newsletter">
+        <h2 id="newsletter-title">Subscribe to our newsletter</h2>
+        <p>Get training tips, new gear alerts, and exclusive offers. No spam.</p>
+        <form id="newsletter-form" class="newsletter-form" novalidate>
+          <label class="sr-only" for="news-email">Email</label>
+          <input id="news-email" name="email" type="email" required placeholder="you@example.com" autocomplete="email" />
+          <button type="submit" class="btn">Subscribe</button>
+          <p id="newsletter-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+      <nav aria-labelledby="footer-nav-title" class="footer-nav">
+        <h2 id="footer-nav-title">Quick links</h2>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./community.html">Community</a></li>
+        </ul>
+      </nav>
+      <section aria-labelledby="social-title" class="social">
+        <h2 id="social-title">Follow us</h2>
+        <ul class="social-list">
+          <li><a href="#" aria-label="ABC Fitness on Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="ABC Fitness on Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="ABC Fitness on X">X (Twitter)</a></li>
+          <li><a href="#" aria-label="ABC Fitness on YouTube">YouTube</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container legal">
+      <p>© <span id="year"></span> ABC Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+</html>

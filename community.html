@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>ABC Fitness — Community</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta name="theme-color" content="#16a34a" />
+
+  <meta name="description" content="See how ABC Fitness supports the community—testimonials, events, and collaborations." />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="./index.html" aria-label="ABC Fitness home">
+        <img src="./assets/images/logo.svg" alt="ABC Fitness logo" width="132" height="32" />
+      </a>
+      <h1 class="site-title">ABC Fitness</h1>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle navigation">☰</button>
+      <nav aria-label="Primary" class="nav-primary">
+        <ul id="menu" class="menu" aria-expanded="false">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./community.html">Community</a></li>
+        </ul>
+      </nav>
+      <a class="cart-link" href="./gallery.html#cart" aria-label="View cart">
+        🛒 <span id="cart-count" class="badge" aria-live="polite">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <h2 id="testimonials-title">Customer testimonials</h2>
+        <div class="grid cols-3">
+          <article class="card"><div class="content">
+            <p>“The dumbbell set is perfect for my apartment gym—compact but versatile. Shipping was fast!”</p>
+            <p><strong>— Jordan P.</strong></p>
+          </div></article>
+          <article class="card"><div class="content">
+            <p>“Swapped my old treadmill for the Treadmill Pro and shaved minutes off my 5K. Super smooth.”</p>
+            <p><strong>— Casey L.</strong></p>
+          </div></article>
+          <article class="card"><div class="content">
+            <p>“Great support team. They helped me pick mobility tools that actually improved my recovery.”</p>
+            <p><strong>— Riley A.</strong></p>
+          </div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="involvement-title">
+      <div class="container">
+        <h2 id="involvement-title">Community involvements</h2>
+        <div class="grid cols-3">
+          <article class="card"><div class="content">
+            <h3>Local gym scholarships</h3>
+            <p>We sponsor youth memberships at community gyms to improve access to fitness.</p>
+          </div></article>
+          <article class="card"><div class="content">
+            <h3>Charity workout series</h3>
+            <p>Monthly fundraiser classes benefiting regional health nonprofits.</p>
+          </div></article>
+          <article class="card"><div class="content">
+            <h3>Gear donation drives</h3>
+            <p>Refurbished equipment gets a second life with schools and rec centers.</p>
+          </div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="events-title">
+      <div class="container">
+        <h2 id="events-title">Events & collaborations</h2>
+        <div class="grid cols-3">
+          <article class="card"><div class="content">
+            <h3>Run Club Partnership</h3>
+            <p>Weekly 5K community runs with local clubs. Members get hydration samples.</p>
+          </div></article>
+          <article class="card"><div class="content">
+            <h3>Coach Talks</h3>
+            <p>Live Q&A with strength coaches and physical therapists—free to attend.</p>
+          </div></article>
+          <article class="card"><div class="content">
+            <h3>Brand collabs</h3>
+            <p>Limited drops with makers who share our quality standards.</p>
+          </div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <section aria-labelledby="newsletter-title" class="newsletter">
+        <h2 id="newsletter-title">Subscribe to our newsletter</h2>
+        <p>Get training tips, new gear alerts, and exclusive offers. No spam.</p>
+        <form id="newsletter-form" class="newsletter-form" novalidate>
+          <label class="sr-only" for="news-email">Email</label>
+          <input id="news-email" name="email" type="email" required placeholder="you@example.com" autocomplete="email" />
+          <button type="submit" class="btn">Subscribe</button>
+          <p id="newsletter-msg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+      <nav aria-labelledby="footer-nav-title" class="footer-nav">
+        <h2 id="footer-nav-title">Quick links</h2>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./community.html">Community</a></li>
+        </ul>
+      </nav>
+      <section aria-labelledby="social-title" class="social">
+        <h2 id="social-title">Follow us</h2>
+        <ul class="social-list">
+          <li><a href="#" aria-label="ABC Fitness on Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="ABC Fitness on Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="ABC Fitness on X">X (Twitter)</a></li>
+          <li><a href="#" aria-label="ABC Fitness on YouTube">YouTube</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container legal">
+      <p>© <span id="year"></span> ABC Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
