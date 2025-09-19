@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-labelledby="title">
+  <title id="title">ABC Fitness Logo</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <!-- Dumbbell icon -->
+  <g transform="translate(6,8)">
+    <rect x="0" y="8" width="20" height="12" rx="2" fill="#0f172a"/>
+    <rect x="20" y="11" width="32" height="6" rx="3" fill="url(#g)"/>
+    <rect x="52" y="8" width="20" height="12" rx="2" fill="#0f172a"/>
+  </g>
+  <!-- Text -->
+  <g font-family="Segoe UI, Roboto, system-ui, -apple-system, sans-serif" font-weight="700">
+    <text x="86" y="30" font-size="20" fill="#0f172a">ABC <tspan fill="url(#g)">Fitness</tspan></text>
+  </g>
+</svg>
