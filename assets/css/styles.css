@@ -1,6 +1,6 @@
 /* ABC Fitness — mobile-first styles.css (by Jerry Campbell) */
-:root{--bg:#ffffff;--fg:#0f172a;--muted:#475569;--brand:#16a34a;--brand-2:#22c55e;--surface:#f8fafc;--ring:#94a3b8;--danger:#ef4444}
-@media (prefers-color-scheme: dark){:root{--bg:#0b1220;--fg:#e2e8f0;--muted:#94a3b8;--surface:#0f172a;--brand:#22c55e;--brand-2:#86efac}}
+:root{--bg:#ffffff;--fg:#001f3f;--muted:#475569;--brand:#634e99;--brand-2:#155ebc;--surface:#f8fafc;--ring:#d3d3d3;--danger:#ef4444}
+@media (prefers-color-scheme: dark){:root{--bg:#0b1220;--fg:#e2e8f0;--muted:#94a3b8;--surface:#0f172a;--brand:#20458e;--brand-2:#86efac}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 html,body{margin:0;padding:0}
